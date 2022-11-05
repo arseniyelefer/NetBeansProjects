@@ -12,8 +12,13 @@ package com.mycompany.cyclefrom100to40;
 public class CYCLEfrom100to40{
     
     public static void main (String[] args){
-        System.out.println("цикл от 100 до 40 ");
-        for (int num=100; num>=40; num--)
-                System.out.println(num + " ");
-    }
+        System.out.print("цикл от 40 до 100: " );
+            int x, i;
+            i = 40;
+            x = 100;
+            while (i <= x) {
+            System.out.print(x+ " " );
+            x=x-1;
+        }
+    }        
 }
